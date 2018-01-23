@@ -16,7 +16,7 @@ def assign_rooms(attendees)
   newarray
 end
 
-def printer(attendees)
+def printer(batch_badge_creator, assign_rooms)
   batch_badge_creator
   assign_rooms
 end
