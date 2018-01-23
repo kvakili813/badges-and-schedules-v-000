@@ -15,3 +15,8 @@ def assign_rooms(attendees)
   end
   newarray
 end
+
+def printer
+  puts batch_badge_creator
+  puts assign_rooms
+end
