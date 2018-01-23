@@ -11,5 +11,5 @@ end
 def assign_rooms(attendees)
   attendees.each_with_index
   count += 1
-  "Hello, #{attendees}! You'll be assigned to room!"
+  "Hello, #{attendees}! You'll be assigned to room []!"
 end
