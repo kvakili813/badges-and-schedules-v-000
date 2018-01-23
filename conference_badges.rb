@@ -9,7 +9,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  attendees.each do count+1
+  attendees.each_with_index do count+1
   "Hello, #{attendees}! You'll be assigned to room 1!"
 end
 end
