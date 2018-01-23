@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees.inject do |badge_names|
+  attendees.collect do |badge_names|
   badge_maker(badge_names)
   end
 end
